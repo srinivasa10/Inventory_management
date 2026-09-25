@@ -1,0 +1,68 @@
+import { ThemeKey, ThemeConfig } from '../types/product';
+
+export const THEMES: Record<ThemeKey, ThemeConfig> = {
+  emerald: {
+    name: 'Emerald Aurora',
+    badge: 'bg-emerald-500/15 border-emerald-500/35 text-emerald-300 shadow-[0_0_12px_rgba(16,185,129,0.25)]',
+    accentGradient: 'from-emerald-300 via-teal-200 to-cyan-300',
+    btnGradient: 'bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 hover:from-emerald-400 hover:to-cyan-400 text-slate-950 font-bold',
+    btnShadow: 'shadow-[0_4px_25px_rgba(16,185,129,0.35)]',
+    cardGlow: 'hover:border-emerald-400/40',
+    priceColor: 'text-emerald-300',
+    activeBorder: 'border-l-emerald-400 bg-emerald-500/15',
+    statAccents: {
+      skus: 'bg-cyan-500/20 border-cyan-500/35 text-cyan-300',
+      value: 'bg-emerald-500/20 border-emerald-500/35 text-emerald-300',
+      alerts: 'bg-amber-500/20 border-amber-500/35 text-amber-300',
+      lowStock: 'bg-rose-500/20 border-rose-500/35 text-rose-300',
+    },
+  },
+  cyber: {
+    name: 'Cyber Violet',
+    badge: 'bg-fuchsia-500/15 border-fuchsia-500/35 text-fuchsia-300 shadow-[0_0_12px_rgba(217,70,239,0.25)]',
+    accentGradient: 'from-fuchsia-300 via-purple-200 to-pink-300',
+    btnGradient: 'bg-gradient-to-r from-purple-600 via-fuchsia-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold',
+    btnShadow: 'shadow-[0_4px_25px_rgba(192,38,211,0.35)]',
+    cardGlow: 'hover:border-fuchsia-400/40',
+    priceColor: 'text-fuchsia-300',
+    activeBorder: 'border-l-fuchsia-400 bg-fuchsia-500/15',
+    statAccents: {
+      skus: 'bg-purple-500/20 border-purple-500/35 text-purple-300',
+      value: 'bg-fuchsia-500/20 border-fuchsia-500/35 text-fuchsia-300',
+      alerts: 'bg-amber-500/20 border-amber-500/35 text-amber-300',
+      lowStock: 'bg-rose-500/20 border-rose-500/35 text-rose-300',
+    },
+  },
+  sunset: {
+    name: 'Amber Sunset',
+    badge: 'bg-amber-500/15 border-amber-500/35 text-amber-300 shadow-[0_0_12px_rgba(245,158,11,0.25)]',
+    accentGradient: 'from-amber-300 via-orange-200 to-rose-300',
+    btnGradient: 'bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 hover:from-amber-400 hover:to-rose-400 text-slate-950 font-bold',
+    btnShadow: 'shadow-[0_4px_25px_rgba(245,158,11,0.35)]',
+    cardGlow: 'hover:border-amber-400/40',
+    priceColor: 'text-amber-300',
+    activeBorder: 'border-l-amber-400 bg-amber-500/15',
+    statAccents: {
+      skus: 'bg-amber-500/20 border-amber-500/35 text-amber-300',
+      value: 'bg-orange-500/20 border-orange-500/35 text-orange-300',
+      alerts: 'bg-yellow-500/20 border-yellow-500/35 text-yellow-300',
+      lowStock: 'bg-rose-500/20 border-rose-500/35 text-rose-300',
+    },
+  },
+  ice: {
+    name: 'Oceanic Ice',
+    badge: 'bg-cyan-500/15 border-cyan-500/35 text-cyan-300 shadow-[0_0_12px_rgba(6,182,212,0.25)]',
+    accentGradient: 'from-cyan-300 via-sky-200 to-indigo-200',
+    btnGradient: 'bg-gradient-to-r from-cyan-500 via-sky-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold',
+    btnShadow: 'shadow-[0_4px_25px_rgba(6,182,212,0.35)]',
+    cardGlow: 'hover:border-cyan-400/40',
+    priceColor: 'text-cyan-300',
+    activeBorder: 'border-l-cyan-400 bg-cyan-500/15',
+    statAccents: {
+      skus: 'bg-sky-500/20 border-sky-500/35 text-sky-300',
+      value: 'bg-cyan-500/20 border-cyan-500/35 text-cyan-300',
+      alerts: 'bg-amber-500/20 border-amber-500/35 text-amber-300',
+      lowStock: 'bg-rose-500/20 border-rose-500/35 text-rose-300',
+    },
+  },
+};
